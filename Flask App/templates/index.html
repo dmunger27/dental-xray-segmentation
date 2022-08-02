@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>File Upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.css">
+  </head>
+  <body>
+    <h1>File Upload</h1>
+    <form action="{{ url_for('upload_file', filename=filename) }}" class="dropzone">
+    </form>
+    <p align="center"><a href=display ><button class=grey style="height:75px;width:150px">Masked Image</button></a></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
+  </body>
+</html>
+
